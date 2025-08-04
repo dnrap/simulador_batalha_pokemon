@@ -11,7 +11,7 @@
     <h2 class="subtitulo">Prepare-se para o desafio</h2>
 
     <p class="escolha">Escolha seu pokemon para batalhar</p>
-    <div class="pokemons">
+    <div class="pokemons" id="pokemons">
         <button onclick="escolha('pikachu')">pikachu</button>
         <button onclick="escolha('charizard')">charizard</button>
         <button onclick="escolha('bulbassaur')">bulbassaur</button>
@@ -21,9 +21,9 @@
     </div>
 
 
-    <div class="batalha" style="display: none;">
-        <img src="" alt="">
-        <img src="" alt="">
+    <div class="batalha" style="display: none;" id="batalha">
+        <img src="" alt="" id="id-jogador">
+        <img src="" alt="" id="id-cpu">
         <p class="status">o desafio começou</p>
         <button onclick="atacar()">atacar</button>
     </div>
