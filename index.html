@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simulador de Batalha Pokemon</title>
 </head>
 <body>
-    
+    <h1 class="titulo">Simulador de Batalha Pokemon</h1>
+    <h2 class="subtitulo">Prepare-se para o desafio</h2>
+
+    <div class="pokemons">
+        <button onclick="escolha('pikachu')">pikachu</button>
+        <button onclick="escolha('charizard')">charizard</button>
+        <button onclick="escolha('bulbassaur')">bulbassaur</button>
+        <button onclick="escolha('charmander')">charmander</button>
+        <button onclick="escolha('gengar')">gengar</button>
+
+        <p class="status">mensagem</p>
+    </div>
+
+
+    <div class="batalha" display = "none">
+        <img src="" alt="">
+        <img src="" alt="">
+        <p class="status">o desafio começou</p>
+    </div>
+    <button onclick="atacar()">atacar</button>
 </body>
 </html>
