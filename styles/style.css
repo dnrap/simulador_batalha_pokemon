@@ -1,0 +1,51 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.titulo {
+    font-size: 70px;
+
+}
+.subtitulo {
+    font-size: 50px;
+    margin: 10px;
+}
+
+.pokemons {
+    background-color: mediumspringgreen;
+    border: 2px solid darkgoldenrod;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 20px;
+    margin:10px;
+    padding: 5px;;
+}
+
+button:hover {
+    font-size: 25px;
+    border: 2px solid darkgoldenrod;
+    background-color: rgb(0, 77, 70);
+    color: white;
+}   
+
+.status {
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(68, 32, 196);
+}
+
+.escolha {
+    font-size: 30px;
+    margin: 5px;
+}
